@@ -5,6 +5,9 @@
 namespace ActiveRecord;
 use Closure;
 
+require 'Utils.php';
+require 'Exceptions.php';
+
 /**
  * Manages configuration options for ActiveRecord.
  *
